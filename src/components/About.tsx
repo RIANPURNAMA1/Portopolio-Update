@@ -146,16 +146,7 @@ const About: React.FC = ()=> {
             >
               <FaInstagram className="w-6 h-6 mr-2" /> Instagram
             </a>
-            <a
-              href="https://instagram.com/yourusername"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex items-center border-2 rounded-md mx-2 my-2 border-white text-white p-2 hover:bg-blue-800 transition duration-200"
-              data-aos="fade-up"
-              data-aos-delay="300"
-            >
-              <FaInstagram className="w-6 h-6 mr-2" /> Instagram
-            </a>
+
           </div>
         </div>
         <div className="border-2 border-blue-950 p-4 rounded-xl relative">
