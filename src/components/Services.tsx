@@ -12,8 +12,8 @@ const services = [
   },
   {
     id: 2,
-    name: 'UI/UX Design',
-    description: 'Creating user-friendly and visually appealing designs.',
+    name: 'Frontend Development',
+    description: ' Creating visually appealing and user-friendly interfaces using HTML, CSS, and JavaScript.',
     icon: <FaPaintBrush className="w-8 h-8 text-green-500" />,
   },
   {
