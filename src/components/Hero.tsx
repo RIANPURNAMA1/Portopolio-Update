@@ -2,7 +2,7 @@ import { ArrowDown } from "lucide-react"; // Pastikan Anda menggunakan lucide-re
 import React from "react";
 import Cv from "../assets/rian.pdf";
 
-export default function Hero() {
+const Hero: React.FC =()=> {
 
 
   const HandleDownload = () => {
@@ -44,3 +44,6 @@ export default function Hero() {
     </div>
   );
 }
+
+
+export default Hero;

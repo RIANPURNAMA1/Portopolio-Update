@@ -1,7 +1,7 @@
 import { Contact, Home, Laptop, User } from 'lucide-react'
 import React from 'react'
 
-export default function NavMobile() {
+const NavMobile : React.FC = () =>  {
   return (
     <div>
          <div className="md:hidden  transition duration-600 ease-in-out">
@@ -45,3 +45,5 @@ export default function NavMobile() {
     </div>
   )
 }
+
+export default NavMobile

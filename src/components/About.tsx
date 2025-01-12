@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import Images from "../assets/images/imagesRian.jpg";
 import ImagesBg from "../assets/images/💻.jpg";
 
@@ -9,11 +9,8 @@ import {
   FaLaravel,
   FaGithub,
   FaLinkedin,
-  FaTwitter,
   FaInstagram,
-  FaHtml5,
   FaJs,
-  FaPhp,
 } from "react-icons/fa"; // Mengimpor ikon keterampilan dan media sosial
 import { SiTailwindcss, SiTypescript } from "react-icons/si"; // Mengimpor ikon untuk Tailwind CSS dan TypeScript
 import HeaderSection from "./HeaderSection";
@@ -43,7 +40,7 @@ const skills = [
   { id: 6, name: "CSS", icon: <FaCss3Alt className="w-6 h-6 text-blue-400" /> },
 ];
 
-export default function About() {
+const About: React.FC = ()=> {
 
  
 
@@ -178,3 +175,6 @@ export default function About() {
     </div>
   );
 }
+
+
+export default About;

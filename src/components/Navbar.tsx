@@ -2,7 +2,7 @@ import { User, Home, Laptop, Contact, AlignRight, X } from "lucide-react";
 import React, { useEffect, useState } from "react";
 import NavMobile from "./NavMobile";
 
-export default function Navbar() {
+const Navbar : React.FC = ()=> {
   const [isOpen, setIsOpen] = useState(false);
   const [prevScrollPos, setPrevScrollPos] = useState(window.pageYOffset);
   const [visible, setVisible] = useState(true);
@@ -27,12 +27,12 @@ export default function Navbar() {
   return (
     <div>
       <nav
-        className={`px-2 sm:px-4 py-2.5 flex justify-center mt-3 fixed top-0 left-3 right-3 navbar transition-opacity duration-300 ${
+        className={`px-2 sm:px-4 py-2.5 z-50 flex justify-center mt-3 fixed top-0 left-3 right-3 navbar transition-opacity duration-300 ${
           visible ? "opacity-100" : "opacity-0"
         }`}
       >
         <ul
-          className="flex hidden md:flex py-3 px-6 backdrop-blur-lg text-white bg-black bg-opacity-80 rounded-full space-x-4"
+          className="hidden md:flex py-3 px-6 backdrop-blur-lg text-white  bg-black bg-opacity-80 rounded-full space-x-4"
           style={{ width: "max-content" }}
         >
           <li>
@@ -74,3 +74,5 @@ export default function Navbar() {
     </div>
   );
 }
+
+export default Navbar;

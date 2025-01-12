@@ -1,10 +1,10 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import HeaderSection from './HeaderSection';
 import { Send } from 'lucide-react';
 
 import 'aos/dist/aos.css'; // Impor CSS AOS
 
-export default function ContactMe() {
+const  ContactMe:React.FC = () => {
   const [name, setName] = React.useState('');
   const [email, setEmail] = React.useState('');
   const [message, setMessage] = React.useState('');
@@ -106,3 +106,5 @@ export default function ContactMe() {
     </div>
   );
 }
+
+export default ContactMe

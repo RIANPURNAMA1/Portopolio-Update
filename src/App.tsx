@@ -7,7 +7,7 @@ import Hero from './components/Hero'
 import Navbar from './components/Navbar'
 import Project from './components/Project'
 import Services from './components/Services'
-import { useEffect } from 'react';
+
 
 function App() {
 

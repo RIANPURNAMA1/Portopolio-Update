@@ -1,7 +1,7 @@
 import React from 'react';
 import { FaGithub, FaLinkedin, FaTwitter, FaInstagram } from 'react-icons/fa'; // Mengimpor ikon media sosial
 
-export default function Footer() {
+const Footer : React.FC = () => {
   return (
     <footer className="bg-black text-white py-4 px-3">
       <div className="container mx-auto text-center flex flex-wrap  justify-between bg-opacity-5">
@@ -44,3 +44,5 @@ export default function Footer() {
     </footer>
   );
 }
+
+export default Footer
