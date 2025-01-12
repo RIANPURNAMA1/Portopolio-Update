@@ -135,7 +135,7 @@ export default function Project() {
                 ))}
               </div>
               <div>
-                <button className="flex items-center bg-transparent bg-white gap-2 text-slate-800 border-2 px-4 py-2 rounded-md hover:text-slate-500">
+                <button onClick={()=>window.location.href='https://github.com/RIANPURNAMA1'} className="flex items-center bg-transparent bg-white gap-2 text-slate-800 border-2 px-4 py-2 rounded-md hover:text-slate-500">
                   Visit <ArrowDownRight />
                 </button>
               </div>

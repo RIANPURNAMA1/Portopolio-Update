@@ -30,7 +30,7 @@ const  ContactMe:React.FC = () => {
       <HeaderSection>
         <div>
           <h1 className='text-3xl font-bold' data-aos="fade-up">Get In Touch</h1>
-          <p className='w-full sm:w-[300px] text-center font-extralight text-sm opacity-60' data-aos="fade-up" data-aos-delay="100">
+          <p className='w-full sm:w-[300px] text-center text-white font-extralight text-sm text-opacity-60' data-aos="fade-up" data-aos-delay="100">
             Have a question or want to work together? Feel free to reach out.
           </p>
         </div>

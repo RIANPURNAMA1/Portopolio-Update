@@ -5,7 +5,7 @@ const NavMobile : React.FC = () =>  {
   return (
     <div>
          <div className="md:hidden  transition duration-600 ease-in-out">
-          <nav className="bg-black text-white z-50 backdrop-blur-lg bg-transparent opacity-90 rounded-md px-2 sm:px-4 py-2.5 flex justify-start mt-3 fixed top-[70px]  right-2 w-[40%] h-[30%] leading-8">
+          <nav className="bg-black text-white z-50 backdrop-blur-lg bg-transparent opacity-90 rounded-md px-2 sm:px-4 py-2.5 flex justify-start mt-3 fixed top-[70px]  right-2 w-[40%]  leading-8" style={{height: 'max-content'}}>
             <ul>
               <li>
                 <a

@@ -137,7 +137,7 @@ const About: React.FC = ()=> {
               <FaLinkedin className="w-6 h-6 mr-2" /> LinkedIn
             </a>
             <a
-              href="https://instagram.com/riiiiiiiiiiiii7_"
+              href="https://instagram.com/riiiiiiiiiiii7_"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center border-2 rounded-md mx-2 my-2 border-white text-white p-2 hover:bg-blue-800 transition duration-200"
