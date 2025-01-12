@@ -58,7 +58,7 @@ const Navbar : React.FC = ()=> {
         </ul>
       </nav>
       {isOpen && <NavMobile />}
-      <div className="flex justify-between items-center p-3 md:hidden z-50 fixed top-0 left-0 right-0 shadow-md bg-transparent bg-opacity-0 backdrop-blur-3xl">
+      <div className="flex justify-between items-center p-3 md:hidden z-50 fixed top-0 left-0 right-0 shadow-md bg-transparent bg-opacity-0 w-full backdrop-blur-3xl overflow-hidden">
         <h1 className="text-white text-2xl font-bold">Rian<span className="text-red-800">DEV</span></h1>
         <button
           onClick={toggle}
