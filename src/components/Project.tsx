@@ -1,6 +1,6 @@
 
 import HeaderSection from "./HeaderSection";
-import { FaReact, FaLaravel, FaCss3Alt } from "react-icons/fa"; // Import ikon yang diperlukan
+import { FaReact, FaLaravel, FaCss3Alt, FaBootstrap, FaJs } from 'react-icons/fa'; // Import ikon yang diperlukan
 import { ArrowDownRight } from "lucide-react";
 import Images1 from "../assets/images/project/ym.jpeg";
 import Images2 from "../assets/images/project/toko.jpeg";
@@ -8,6 +8,8 @@ import Images3 from "../assets/images/project/food.jpeg";
 import Images4 from "../assets/images/project/blog.jpeg";
 import Images5 from "../assets/images/project/absensi.jpeg";
 import Images6 from "../assets/images/project/chat.jpeg";
+import { RiTailwindCssFill, RiTailwindCssLine } from "react-icons/ri";
+import { SiTailwindcss } from "react-icons/si";
 
 // Data proyek
 const projects = [
@@ -30,9 +32,8 @@ const projects = [
       "Website ini adalah platform e-commerce yang menyediakan berbagai produk komputer dan laptop dengan harga terjangkau. Dirancang dengan antarmuka yang sederhana dan intuitif, pengguna dapat dengan mudah menjelajahi katalog produk, membandingkan spesifikasi, dan melakukan pembelian secara online. Website ini juga menawarkan informasi lengkap tentang setiap produk, termasuk ulasan dan panduan pembelian, untuk membantu pelanggan membuat keputusan yang tepat. Dengan sistem pembayaran yang aman dan pengiriman yang cepat, website ini bertujuan untuk memberikan pengalaman belanja yang nyaman dan efisien bagi semua pengguna.",
     image: Images2,
     icons: [
-      <FaReact className="text-2xl text-blue-500" title="React" />,
       <FaLaravel className="text-2xl text-red-600" title="Laravel" />,
-      <FaCss3Alt className="text-2xl text-blue-600" title="CSS" />,
+      <RiTailwindCssFill className="text-2xl text-blue-600" title="CSS" />,
     ],
   },
   {
@@ -44,7 +45,7 @@ const projects = [
     icons: [
       <FaReact className="text-2xl text-blue-500" title="React" />,
       <FaLaravel className="text-2xl text-red-600" title="Laravel" />,
-      <FaCss3Alt className="text-2xl text-blue-600" title="CSS" />,
+      <RiTailwindCssFill className="text-2xl text-blue-600" title="Tailwind" />,
     ],
   },
   {
@@ -54,9 +55,9 @@ const projects = [
       "Website ini adalah platform blogging yang menyediakan ruang bagi penulis dan pembaca untuk berbagi dan menemukan konten berkualitas. Dengan antarmuka yang bersih dan responsif, pengguna dapat dengan mudah menjelajahi berbagai kategori artikel, mulai dari gaya hidup, teknologi, kesehatan, hingga perjalanan. Setiap postingan dilengkapi dengan fitur komentar, memungkinkan interaksi antara penulis dan pembaca. Website ini juga menawarkan opsi untuk berbagi artikel di media sosial, sehingga konten dapat menjangkau audiens yang lebih luas. Dengan tujuan untuk menginspirasi dan mendidik, website ini menjadi sumber informasi yang berharga bagi siapa saja yang ingin memperluas wawasan dan pengetahuan mereka.",
     image: Images4,
     icons: [
-      <FaReact className="text-2xl text-blue-500" title="React" />,
       <FaLaravel className="text-2xl text-red-600" title="Laravel" />,
-      <FaCss3Alt className="text-2xl text-blue-600" title="CSS" />,
+      <FaBootstrap className="text-2xl text-violet-600" title="Boostrap" />,
+      <FaJs className="text-2xl text-yellow-600" title="js" />,
     ],
   },
   {
@@ -68,7 +69,7 @@ const projects = [
     icons: [
       <FaReact className="text-2xl text-blue-500" title="React" />,
       <FaLaravel className="text-2xl text-red-600" title="Laravel" />,
-      <FaCss3Alt className="text-2xl text-blue-600" title="CSS" />,
+      <RiTailwindCssLine className="text-2xl text-blue-600" title="CSS" />,
     ],
   },
   {
@@ -78,9 +79,8 @@ const projects = [
       "Aplikasi Chat Grup Sederhana adalah platform komunikasi yang dirancang untuk memfasilitasi interaksi antar pengguna dalam grup. Dengan antarmuka yang intuitif dan mudah digunakan, aplikasi ini memungkinkan pengguna untuk membuat grup chat, mengirim pesan teks, berbagi gambar, dan melakukan diskusi secara real-time. Fitur notifikasi memastikan bahwa pengguna tidak akan ketinggalan pesan penting, sementara kemampuan untuk menambahkan atau menghapus anggota grup memberikan fleksibilitas dalam pengelolaan komunitas. Aplikasi ini bertujuan untuk meningkatkan kolaborasi dan komunikasi di antara teman, keluarga, atau rekan kerja, menjadikannya alat yang ideal untuk berbagai keperluan.",
     image: Images6,
     icons: [
-      <FaReact className="text-2xl text-blue-500" title="React" />,
       <FaLaravel className="text-2xl text-red-600" title="Laravel" />,
-      <FaCss3Alt className="text-2xl text-blue-600" title="CSS" />,
+      <SiTailwindcss className="text-2xl text-blue-600" title="CSS" />,
     ],
   },
 ];
